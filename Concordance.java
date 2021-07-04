@@ -39,7 +39,7 @@ public class Concordance {
 	
 	private void readFromFile() throws IOException { // read from file
 		bufferReader = new BufferedReader(new FileReader(
-				// Enter Your Directory))
+				// Enter Your Directory));
 		str = bufferReader.readLine(); // receives line from the text and put in a String
 	}
 	
@@ -82,7 +82,7 @@ public class Concordance {
 	}
 	
 	public void createFileAndWriteToIt() throws IOException { // opens text file and write to it the content of the concordance
-		File theFile = new File("C:\\Users\\yonke\\Documents\\ìéîåãéí\\ùðä à\\ñîñèø ÷éõ\\îáðé ðúåðéí\\úøâåìé áéú\\úøâåì ñåôé\\TheConcordancedFile.txt"); // change the directory
+		File theFile = new File(// Enter Your Directory));
 		FileWriter writer = new FileWriter(theFile);
 		writer.write(listOfWords.toString());
 		writer.close();
